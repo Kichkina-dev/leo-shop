@@ -1,0 +1,90 @@
+@media screen and (max-width: 540px) {
+    .top{
+        display: none;
+    }
+    .menu .right{
+        display: none;
+    }
+    .menu{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 10px;
+        border-bottom: 1px solid #444;
+        box-shadow: 0px 0px 10px #444;
+        top: 0;
+        position: fixed;
+        background-color: #fff;
+    }
+    .menu .center{
+        width: 140%;
+        display: none;
+        flex-direction: column;
+    }
+    .menu .center a{
+        border-bottom: 1px solid #656565;
+    }
+    .menu .navbar span{
+        display: flex;
+    }
+    .menu .navbar #navbar-off{
+        display: none;
+        font-size: 20px;
+        color: #656565;
+        padding-top: 10px; 
+        font-weight: 900; 
+    }
+    .menu .navbar #navbar{
+        font-size: 20px;
+        color: #656565;
+        padding-top: 10px;
+    }
+    .banner {
+        display: none;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin: 70px 0px;
+    }
+    .content .grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        margin-left: 25%;
+    }
+    .content .left
+    {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #444;
+    }
+    .card-oll{
+        margin-top: 10% !important;
+        margin-left: 25%;
+    }
+    .content .right .news{
+        margin-top: 10%;
+        margin-left: 25%;
+    }
+    .sale{
+        display: flex;
+        flex-direction: column;
+    }
+    .sale h1, .sale span{
+        font-size: small;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin: 0;
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 10px;
+    }
+}
